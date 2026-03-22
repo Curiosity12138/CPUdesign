@@ -10,8 +10,9 @@ module FSM1(
   parameter F =3'b101 ;
   reg[2:0] present_state,next_state;
 
-  always@(posedge clk)
-    present_state<=next_state;
+
+  //
+  //
 
   always@(*)
   begin
